@@ -1,17 +1,9 @@
 # Addition
 
-Scenario: (describe a scenario here)
+Scenario: Add two numbers
   
-  Given (state the initial condition)
+  Given I have two numbers
 
-  When (state the event)
+  When I enter <number1> and press <+> button and then enter <number2> and press <=> button
   
-  Then (state the effect)
-
-Scenario: (describe a scenario here)
-  
-  Given (state the initial condition)
-  
-  When (state the event)
-  
-  Then (state the effect)
+  Then I see <added-sum> as the result
