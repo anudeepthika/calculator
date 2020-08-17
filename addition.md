@@ -6,4 +6,4 @@ Scenario: Add two numbers
 
   When I enter number1, press + button, enter number2 and then press = button
   
-  Then I see <added-sum> as the result
+  Then I see added sum as the result
