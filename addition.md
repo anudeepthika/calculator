@@ -2,7 +2,7 @@
 
 Scenario: Add two numbers
   
-  Given I have a calculator that is turned on
+  Given I have a calculator that's turned on
 
   When I enter "first number"
   And press "+" button
